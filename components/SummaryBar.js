@@ -25,6 +25,11 @@ const SummaryBar = ( { title, orm, tm } ) => {
                 <Text style={styles.barSectionTitle}>Trend</Text>
                 <Text>Up</Text>
             </View>
+
+            <View style={styles.barSection}>
+                <Text style={styles.barSectionTitle}>Cal.</Text>
+                <Text>2,500</Text>
+            </View>
         </Pressable>
     );
 }

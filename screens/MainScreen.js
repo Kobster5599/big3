@@ -31,6 +31,7 @@ const MainScreen = ({navigation}) => {
           <SummaryBar title="Deadlift" orm={data.ormDeadlift} tm={data.tmDeadlift} />
           <SummaryBar title="Press" orm={data.ormPress} tm={data.tmPress} />
           <SummaryBar title="Squat" orm={data.ormSquat} tm={data.tmSquat} />
+          <SummaryBar title="Diet" orm={data.ormDiet} tm={data.tmDiet} />
         </View>
 
         <View style={styles.calendarContainer}>
