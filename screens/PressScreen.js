@@ -33,9 +33,11 @@ const styles = StyleSheet.create({
   },
   backButton: {
     width: '35%',
-    alignSelf: 'flex-end',
-    marginTop: -5,
+    justifyContent: 'center',
+    alignItems: 'center',
     position: 'absolute',
+    top: 15,
+    left: 15,
     padding: 32,
     borderWidth: 2,
     borderColor: 'white',
